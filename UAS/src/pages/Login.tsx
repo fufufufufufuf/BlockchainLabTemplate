@@ -1,25 +1,23 @@
 import React, { useState } from 'react';
 import { IonButton, IonContent, IonPage, IonTitle, IonInput, IonIcon, IonRouterLink, IonAvatar, IonRow, IonCol } from '@ionic/react';
-import { personOutline, lockClosedOutline } from 'ionicons/icons'; // Import ikon
-import { useHistory } from 'react-router-dom'; // Import useHistory hook untuk navigasi
+import { personOutline, lockClosedOutline } from 'ionicons/icons'; 
+import { useHistory } from 'react-router-dom'; 
 import logo from "./../gambar/solo.jpg";
 import './Login.css';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const history = useHistory(); // Inisialisasi useHistory hook
+  const history = useHistory(); 
 
   const handleLogin = () => {
-    // Lakukan validasi username dan password di sini
-    // Misalnya, Anda dapat menggunakan state management (misalnya Redux) atau memanggil API untuk validasi
-    // Untuk contoh ini, saya akan menggunakan validasi sederhana
+
     const userData = JSON.parse(localStorage.getItem('userData') || '{}');
     if (username === 'admin' && password === 'admin') {
-      // Redirect ke halaman admin jika login sebagai admin berhasil
       history.push('/admin');
-    } else if (username === userData.username && password === userData.password) {
-      // Redirect ke halaman utama jika login berhasil
+    } else if (username === 'org1' && password === 'org1') {
+      history.push('/org1');}
+      else if (username === userData.username && password === userData.password) {
       history.push('/home');
     } else {
       alert('Username atau password salah');
@@ -28,7 +26,6 @@ const Login: React.FC = () => {
   
 
   const handleRegisterRedirect = () => {
-    // Redirect ke halaman pendaftaran saat tombol Register ditekan
     history.push('/register');
   };
 

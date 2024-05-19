@@ -37,6 +37,9 @@ import Register from './pages/Register';
 import Admin from './pages/Admin';
 import Manage from './pages/Manage';
 import Result from './pages/Result';
+import Org1 from './pages/Org1';
+import CVoting from './pages/CVoting';
+import View from './pages/View';
 
 setupIonicReact();
 
@@ -50,6 +53,9 @@ const App: React.FC = () => (
         <Route path="/register" component={Register} />
         <Route path="/manage" component={Manage} />
         <Route path="/result" component={Result} />
+        <Route path="/org1" component={Org1} />
+        <Route path="/create-voting" component={CVoting} />
+        <Route path="/kandidates" component={View} />
         <Redirect exact from="/" to="/login" />
       </IonRouterOutlet>
     </IonReactRouter>

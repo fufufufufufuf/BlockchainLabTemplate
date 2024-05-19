@@ -29,7 +29,6 @@ const Manage: React.FC = () => {
                   <IonSelect label="Pilih Organizer" label-placement="floating">
                     <IonSelectOption value="organizer1">Organizer 1</IonSelectOption>
                     <IonSelectOption value="organizer2">Organizer 2</IonSelectOption>
-                    {/* Tambahkan pilihan organizer lainnya sesuai kebutuhan */}
                   </IonSelect>
                 </IonCol>
               </IonRow>

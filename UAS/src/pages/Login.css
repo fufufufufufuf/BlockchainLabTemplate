@@ -15,21 +15,19 @@
   }
   
   .logo-container img {
-    width: 150px; /* Atur lebar sesuai kebutuhan */
-    height: auto; /* Biarkan tinggi disesuaikan secara otomatis */
-    max-width: 100%; /* Pastikan gambar tidak melebihi lebar kontainer */
+    width: 150px; 
+    height: auto; 
+    max-width: 100%;
   }
-  
   
   
   .input-container {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #f0f0f0; /* Warna latar belakang untuk input */
-    border: 1px solid #ccc; /* Tambahkan border */
-    border-radius: 5px; /* Tambahkan border-radius */
-    padding: 5px; /* Tambahkan padding */
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
   }
   
   .input-container ion-icon {
@@ -38,8 +36,8 @@
   }
   
   .input-field {
-    border: none; /* Hapus border pada input */
-    width: 100%; /* Pastikan input menempati seluruh lebar container */
+    border: none;
+    width: 100%; 
   }
   
   .app-title {

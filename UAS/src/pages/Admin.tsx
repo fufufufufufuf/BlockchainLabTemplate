@@ -15,8 +15,6 @@ const Admin: React.FC = () => {
   };
 
   const handleLogout = () => {
-    // Lakukan proses logout, seperti membersihkan data sesi atau menyimpan status logout
-    // Kemudian navigasikan pengguna kembali ke halaman login
     history.push('/login');
   };
 
@@ -38,12 +36,11 @@ const Admin: React.FC = () => {
             <IonLabel>Username: admin</IonLabel>
           </IonItem>
           <IonItem>
-            <IonLabel>Email: admin@example.com</IonLabel>
+            <IonLabel>Email: admin@gmail.com</IonLabel>
           </IonItem>
-          {/* Add more user information as needed */}
         </IonList>
         <IonGrid>
-          <IonRow>
+          <IonRow className='tombol'>
             <IonCol>
               <IonButton expand="block" onClick={handleVotingResult}>Voting Results</IonButton>
             </IonCol>
@@ -52,7 +49,9 @@ const Admin: React.FC = () => {
             </IonCol>
           </IonRow>
         </IonGrid>
-        <IonButton expand="block" onClick={handleLogout}>Log Out</IonButton>
+        <div className="logout-container">
+          <IonButton expand="block" onClick={handleLogout}>Log Out</IonButton>
+        </div>
       </IonContent>
     </IonPage>
   );

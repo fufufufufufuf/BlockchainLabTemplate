@@ -28,7 +28,6 @@ const Result: React.FC = () => {
             <IonCardTitle>Voting Results</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
-            {/* Tampilkan diagram donat */}
             <Doughnut data={data} />
           </IonCardContent>
         </IonCard>
