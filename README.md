@@ -2,8 +2,9 @@
 GitHub repository template for Blockchain lab project submission. Follow the rules and the provided template in this repository to avoid penalty.
 
 ## Team Member Group XX
-- Alfred Kuhlman (00000047678) @AlfredPros
-- Full Name (00000012345) @username
+- Joshua Ardin (00000061685) @fufufufufufuf
+- Kevin Melky  (00000061564)
+- Jevon Chan Ho Kim (00000061258)
 
 ## Project Instruction
 1. Create your own repository.
@@ -16,15 +17,17 @@ console.log("Use this code block to show source code or terminal command to inst
 4. Fill your repository with the source code.
 
 ## Miscellaneous Information
-Additional notes to let everyone know regarding your team or the project.
+Projek masih belum sepenuhnya selesai masih ada error saat upload foto dan pindah pindah page
 
 ### Work Organization
-- **Alfred Kuhlman**
-  - Programmed the smart contract and oracle to handle data and flow control.
-- **Full Name**
+- **Joshua Ardin**
+  - Programmed the smart contract and candidate-registration page
+  - component voterCard, card, input .
+- **Kevin Melky**
   - Designed the webpage UIs.
   - Implemented and programmed webpage functionality.
+  - create voterlist, index and app.js.
+- **Jevon Chan**
+  - allowed-voters, components button.
 
-### Detail
-- *Lorem ipsum dolor sit amet* is my favorite phrase, therefore we added it as our web page banner text.
-- `README.md` is important; primarily to tell how to use your project. Keep it simple and straightforward.
+
